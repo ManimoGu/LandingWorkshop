@@ -13,7 +13,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #2264DC;
-   
+
     color: black;
     z-index: 99;
    
@@ -118,14 +118,15 @@ nav > ul > li > a{
 }
 
 .services{
-  
+    margin-top: 50px;
     height: 90vh;
+    padding-top: 40px;
    
 }
 
 .Service{
     text-align: center;
-    margin-top: 50px;
+  
 }
 
 
@@ -133,7 +134,8 @@ nav > ul > li > a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 60px;
+
+    height: 80%;
 }
 
 .btn.btns{
@@ -160,7 +162,7 @@ nav > ul > li > a{
 
 .text > h1{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .text > p{
@@ -183,14 +185,16 @@ nav > ul > li > a{
 }
 
 .Portfolio{
-
-    height: 90vh;
+    
+    height: 100vh;
     width: 100%;
+    padding: 20px;
+    
 
 }
 .Portfolio h2{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
