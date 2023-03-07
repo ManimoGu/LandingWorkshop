@@ -118,13 +118,14 @@ nav > ul > li > a{
 }
 
 .services{
-    margin-top: 50px;
+    
     height: 100vh;
     padding-top: 40px;
    
 }
 
 .Service{
+    margin-top: 50px;
     text-align: center;
   
 }
