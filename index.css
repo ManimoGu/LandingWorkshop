@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+}
+
+
+
+
+nav{
+    position:fixed;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2264DC;
+   
+    color: black;
+    z-index: 99;
+   
+}
+
+nav > ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 7px;
+}
+
+nav > ul > li{
+    font-size: 16px;
+}
+
+nav > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+.login{
+    position: relative;
+
+}
+
+.logo{
+
+    width: 15%;
+    height: 100%;
+    background-color: rgb(232, 232, 232);
+
+
+}
+
+.Home{
+ 
+   display: flex;
+ 
+    height: 100vh;
+    background-color: #2264DC;
+}
+
+.left{
+
+
+    background-image: url(pexels-ready-made-4008890.jpg);
+    background-size: contain;
+    opacity: 0.8;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(168, 168, 168);
+}
+
+.right{
+    position: relative;
+    display: flex;
+    gap : 10px;
+    top: 30%;
+    right: 18%;
+    width: 800px;
+    height: 40%;
+    background-color: transparent;
+}
+
+.left-side{
+    background-color: #2264DC;
+    opacity: 0.7;
+    width: 15%;
+    height: 100%;
+
+}
+
+.right-side{
+    width: 80%;
+   
+    background-color: white;
+}
+
+.title{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.start{
+    position: relative;
+    left: 30%;
+    top : 70%;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 7px 25px rgba(0,0,0,0.1);
+    background-color: #2264DC;
+    color: white;
+    border: none;
+}
+
+.services{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.btn.btns{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #2264DC;
+
+
+}
+
+.About{
+    display: flex;
+
+    height: 93vh;
+    width: 100%;
+}
+
+.text{
+    background-color: #2264DC;
+    width: 50%;
+    height: 100%;
+}
+
+.pic2{
+    position: relative;
+    background-image: url(pexels-mike-b-114820.jpg);
+    background-size: cover;
+    top: 30%;
+    right: 10%;
+    width: 500px;
+    height: 300px;
+  
+}
