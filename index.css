@@ -41,6 +41,12 @@ nav > ul > li > a{
 
 .login{
     position: relative;
+    background-color: #2264DC;
+    border: 1px solid gray;
+    color: white;
+    margin-right: 30px;
+    width: 100px;
+    height: 35px;
 
 }
 
@@ -100,16 +106,28 @@ nav > ul > li > a{
 .title{
     width: fit-content;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 25px;
     
 }
+.title >p{
+    text-align: center;
+    font-size: 16;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.title >h3{
+   text-align: center; 
+}
+
+
 
 .start{
     position: relative;
     left: 30%;
-    top : 70%;
+    top : 26%;
     width: 200px;
-    height: 35px;
+    height: 45px;
     border: 1px solid rgba(0,0,0,0.08);
     box-shadow: 0 7px 25px rgba(0,0,0,0.1);
     background-color: #2264DC;
@@ -174,7 +192,7 @@ nav > ul > li > a{
     margin-left: 40px;
 }
 
-.pic2{
+.sidepic{
     position: relative;
     background-image: url(pexels-mike-b-114820.jpg);
     background-size: cover;
@@ -195,7 +213,7 @@ nav > ul > li > a{
 }
 .Portfolio h2{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -207,6 +225,56 @@ nav > ul > li > a{
     grid-gap: 20px;
     margin-top: 60px;
    
+}
+
+.pic1{
+
+    background-image: url(/Portfolio/pic1.jpg);
+    background-size: cover;
+
+}
+.pic2{
+
+    background-image: url(/Portfolio/pic2.jpg);
+    background-size: cover;
+
+}
+.pic3{
+
+    background-image: url(/Portfolio/pic3.jpg);
+    background-size: cover;
+
+}
+.pic4{
+
+    background-image: url(/Portfolio/pic4.jpg);
+    background-size: cover;
+
+}
+.pic5{
+
+    background-image: url(/Portfolio/pic5.jpg);
+    background-size: cover;
+
+}
+.pic6{
+
+    background-image: url(/Portfolio/pic6.jpg);
+    background-size: cover;
+
+}
+
+.pic7{
+
+    background-image: url(/Portfolio/pic7.jpg);
+    background-size: cover;
+
+}
+.pic8{
+
+    background-image: url(/Portfolio/pic8.jpg);
+    background-size: cover;
+
 }
 
 .picture{
