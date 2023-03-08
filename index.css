@@ -42,7 +42,7 @@ nav > ul > li > a{
 .login{
     position: relative;
     background-color: #2264DC;
-    border: 1px solid gray;
+    border: 1px solid white;
     color: white;
     margin-right: 30px;
     width: 100px;
@@ -181,21 +181,26 @@ nav > ul > li > a{
 
 .text > h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 70px;
+    color: white;
 }
 
 .text > p{
     font-size: 20px;
     width: 75%;
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 40px;
+    color: rgb(229, 229, 229);
 }
-
+.pic{
+    position: relative;
+}
 .sidepic{
     position: relative;
     background-image: url(pexels-mike-b-114820.jpg);
     background-size: cover;
+   
     top: 30%;
     right: 10%;
     width: 500px;
@@ -304,4 +309,20 @@ form{
     width: 70%;
     margin: auto;
     margin-top:100px;
+}
+
+.infotext{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.infotext ion-icon{
+    font-size: 20px;
+}
+
+.coord{
+    margin-top: 30px;
+    padding: 20px;
 }
